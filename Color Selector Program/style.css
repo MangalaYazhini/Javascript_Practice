@@ -1,0 +1,83 @@
+*
+{
+  font-family: Verdana;
+}
+
+/*
+  HSL : Hue Saturation Lightness
+    0 or 360: Red
+    60: Yellow
+    120: Green
+    180: Cyan
+    240: Blue
+    300: Magenta
+
+  Saturation : The intensity or purity of the color.
+ 
+    0%: A shade of gray.
+    100%: Full color. 
+
+  Lightness : The brightness of the color.
+
+    0%: Black.
+    50%: Normal.
+    100%: White. 
+
+*/
+body
+{
+  
+  text-align: center;
+  color : grey ; 
+}
+
+.colorsContainer li 
+{
+  display : block; 
+
+}
+
+
+h3
+{
+  font-size: 1.75em;
+}
+
+.colorChoice
+{
+ 
+  margin-right : 8px; 
+  margin-left : 8px; 
+  padding : 10px; 
+  font-weight: bolder;
+  
+}
+
+.colorContainer
+{
+  display : flex ;
+  justify-content: center;
+}
+
+button
+{
+  margin-top : 30px; 
+  padding : 10px;
+  font-size: 1.25em; 
+  border-radius : 10px; 
+  border-color: grey;
+  color : rgb(62, 60, 60); 
+  font-weight: bolder;
+}
+
+input[type="checkbox"], input[type="radio"] 
+{
+  transform: scale(1.5);
+}
+
+.themeDiv
+{
+  padding-top : 10px; 
+  padding-bottom : 10px; 
+  font-weight: bolder;
+}
