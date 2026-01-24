@@ -2,6 +2,8 @@
 // A variable is a container that stores the data.
 
 /* 
+  JAVASCRIPT VARAIABLES ARE DYNAMIC.
+  In JavaScript, variables are not locked to a single data type.
   JavaScript variables can be declared in four ways:
 
   Modern JavaScript
@@ -22,6 +24,13 @@
   Temporal Dead Zone: Time where let/const exist but cannot be used
 
 */
+
+/* JAVASCRIPT IS DYNAMICALLY TYPED LANGUAGE*/
+let data = 10;        // data is a number
+data = "hello";      // data is a string
+data = true;         // data is a boolean
+
+/* There is no declaration of a variable associated with a specific type.*/
 
 /*------------------------------------------- let Variable -------------------------------------*/
 // let declares a block scoped variable 
